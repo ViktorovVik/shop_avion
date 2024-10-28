@@ -1,0 +1,18 @@
+{
+  "name": "avion",
+  "version": "1.0.0",
+  "description": "online shop",
+  "source": "index.html",
+  "scripts": {
+    "sass:avion": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ViktorovVik/shop_avion.git)"
+  },
+  "author": "Shuntikov Viktor",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.80.4"
+  }
+}
