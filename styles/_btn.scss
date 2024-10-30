@@ -1,0 +1,17 @@
+@use 'vars' as v;
+
+.btn-view {
+   padding: 16px 32px;
+   background: rgba(249, 249, 249, 0.15);
+   transition: .3s ease-in;
+
+   &:hover {
+      opacity: .8;
+   }
+}
+.btn {
+   @media (max-width: v.$media_lg) {
+      width: 100%;
+      text-align: center;
+   }
+}
