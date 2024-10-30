@@ -1,0 +1,67 @@
+@use 'vars' as v;
+
+.hero {
+   padding: 20px 0 120px 0;
+}
+
+.hero__content {
+   display: flex;
+}
+.hero__content-desc {
+   background-color: v.$dark-primary;
+   color: v.$white;
+}
+.desc {
+   padding: 60px;
+
+   @media (max-width: v.$media_xl) {
+      padding: 40px 24px 40px 24px;
+   }
+
+   @media (max-width: v.$media_lg) {
+      width: 100%;
+      
+   }
+}
+.desc__title {
+   font-family: 'ClashDisplay', sans-serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 140%;
+   max-width: 513px;
+   margin: 0 0 40px 0;
+}
+
+.desc__view {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   row-gap: 190px;
+
+   @media (max-width: v.$media_xl) {
+      row-gap: 170px;
+   }
+
+   @media (max-width: v.$media_lg) {
+      flex-direction: column-reverse;
+      row-gap: 32px;
+   }
+}
+
+.desc__text {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   max-width: 639px;
+}
+
+
+.hero__image {
+   max-width: 520px;
+   width: 100%;
+   object-fit: contain;
+
+   @media (max-width: v.$media_lg) {
+     display: none;
+   }
+}
