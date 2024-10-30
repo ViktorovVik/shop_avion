@@ -3,11 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Luxury homeware for people who love timeless design quality">
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/ico" />
-    <link rel="stylesheet" href="dist/index.css">
+    <link rel="stylesheet" href="dist/index.css" />
+    <script src="js/mobile-menu.js" defer></script>
     <title>Avion</title>
   </head>
   <body>
-   hello
+    <header class="header" aria-label="header section">
+      <div class="container header__container">
+        <div class="header__top">
+          <div class="header__toggle">
+            <button class="header__btn-search">
+              <svg width="15" height="15" class="header__svg">
+              <use viewBox="0 0 15 15" href="assets/icons/sprites.svg#search"></use>
+            </svg>
+          </button>
+            <div class="menu-mobile mobile" aria-label="mobile menu">
+              <div class="mobile__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <nav class="mobile__body">
+                <ul class="mobile__list">
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Plant pots</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Ceramics</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Tables</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Chairs</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Crockery</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Tableware</a></li>
+                  <li class="mobile__item"><a href="#!" class="mobile__link">Cutlery</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <a href="#!" class="logo">
+            <img src="./assets/logo/Avion.svg" alt="Avion">
+          </a>
+          <ul class="header__users users" aria-label="user icons">
+            <li class="users__item">
+              <button class="users__btn">
+                <svg width="14" height="14" class="header__svg">
+                  <use viewBox="0 0 14 14" href="assets/icons/sprites.svg#user"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="users__item">
+              <button class="users__btn">
+                <svg width="14" height="14" class="header__svg">
+                  <use viewBox="0 0 14 14" href="assets/icons/sprites.svg#bucket"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="header__bottom">
+          <nav class="header__nav nav" aria-label="header navigation">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#!" class="nav__link">Plant pots</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Ceramics</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Tables</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Chairs</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Crockery</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Tableware</a></li>
+              <li class="nav__item"><a href="#!" class="nav__link">Cutlery</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
   </body>
 </html>

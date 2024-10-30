@@ -1,0 +1,70 @@
+@use 'vars' as v;
+
+
+.header {
+   padding: 20px 0 80px 0;
+
+   &__container {
+      max-width: 1400px;
+      width: 100%;
+   }
+
+   &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0 20px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+
+      @media (max-width: v.$media_lg) {
+         flex-direction: row-reverse;
+         border-bottom: none;
+      }
+   }
+
+   &__toggle {
+      @media (max-width: v.$media_lg) {
+         display: flex;
+         column-gap: 20px;
+      }
+   }
+
+   &__users {
+
+      &.users {
+         display: flex;
+         column-gap: 15px;
+         @media (max-width: v.$media_lg) {
+            display: none;
+         }
+      }
+   }
+}
+
+.nav__list {
+   display: flex;
+   justify-content: center;
+   column-gap: 44px;
+   margin: 20px 0 0 0;
+
+   @media (max-width: v.$media_lg) {
+      display: none;
+   }
+}
+
+.nav__link {
+   font-family: 'Satoshi', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: v.$light-grey;
+   transition: .2s ease-in;
+
+   &:hover {
+      color: v.$dark-primary;
+   }
+}
+
+
+
+
+
