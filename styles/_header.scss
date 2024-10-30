@@ -39,6 +39,10 @@
          }
       }
    }
+
+   @media (max-width: v.$media_lg) {
+      padding: 20px 0 0 0;
+   }
 }
 
 .nav__list {
