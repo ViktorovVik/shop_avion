@@ -31,6 +31,7 @@
    @media (max-width: v.$media_lg) {
       grid-template-columns: repeat(2, 1fr);
       row-gap: 25px;
+      justify-content: center;
    }
  
    @media (max-width: v.$media_md) {
