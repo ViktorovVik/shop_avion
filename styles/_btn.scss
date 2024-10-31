@@ -4,14 +4,17 @@
    padding: 16px 32px;
    background: rgba(249, 249, 249, 0.15);
    transition: .3s ease-in;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
 
    &:hover {
-      opacity: .8;
+      opacity: .7;
    }
-}
-.btn {
+
    @media (max-width: v.$media_lg) {
       width: 100%;
       text-align: center;
    }
 }
+
