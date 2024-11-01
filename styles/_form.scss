@@ -1,0 +1,46 @@
+@use 'vars' as v; 
+
+
+.form {
+   display: flex;
+   height: 56px;
+}
+
+.form__input {
+   background: v.$light-background;
+   max-width: 380px;
+   padding: 11px 12px;
+   width: 80%;
+   color: v.$dark-primary;
+
+   &::placeholder {
+      padding: 0;
+      opacity: 0.5;
+      font-weight: 400;
+      font-size: 16px;
+      color: v.$dark-primary;
+   }
+
+   @media (max-width: v.$media_md) {
+      width: 80%;
+   }
+}
+.for__btn {
+   padding: 14px 20px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   outline: 0;
+   background-color: v.$dark-primary;
+   transition: .3s ease-in-out;
+   width: 30%;
+
+   &:hover {
+      opacity: .8;
+   }
+   
+   @media (max-width: v.$media_md) {
+      padding: 10px 20px;
+      width: 30%;
+   }
+}
