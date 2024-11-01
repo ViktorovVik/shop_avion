@@ -30,7 +30,8 @@ figure {
 }
 
 a,
-button {
+button,
+input {
    background: none;
    color: inherit;
    cursor: pointer;
@@ -38,6 +39,8 @@ button {
    border: 0;
    text-decoration: none;
    padding: 0;
+   margin: 0;
+   outline: none;
 }
 
 .container {
