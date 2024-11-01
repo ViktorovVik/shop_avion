@@ -1,0 +1,11 @@
+@use 'vars' as v;
+
+.socials {
+   display: flex;
+   column-gap: 25px;
+
+   @media (max-width: v.$media_lg) {
+      display: none;
+   }
+}
+
